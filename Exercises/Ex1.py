@@ -1,12 +1,21 @@
 """
-Concatenate some strings into a longer
-string and print out the result
+Create a list of random integers, then delete the even entries,
+then print the remaining entries.
 """
 
-word1 = "tree"
-word2 = "branch"
-word3 = "leaf"
+import random
 
-sentence = word1 + Word2 + word3
+# Create and print a list of 20 integers
+# where all entries are 0<=n<=100
+numbers = [random.randint(0,100) for n in range(20)]
+print("Original list:")
+print(numbers)
 
-print(sentence)
+for i in range(len(numbers)):
+    # if remainder of division by 2 is zero, delete list entry
+    if numbers[i]%2==0:
+        del numbers[i]
+
+# Print the remaining list with all odd numbers
+print("Odd entries:")
+print(numbers)
