@@ -6,6 +6,14 @@ This is a series of exercises designed to introduce you to the basics of debuggi
 These are based around using some variety of **visual** debugger, as opposed to a purely terminal based one.
 Tutorials will be based off using the Visual Studio Code (VSC) debugging interface for convenenience but principles should also apply to other IDEs.
 
+## Tim's notes
+- Add solutions folder
+- Set up actual notes, potentially in Jekyll?
+- Add C/ C++ example
+- Add an example that makes use of try/ catch/ except
+- Assert statements in Python
+- Very basic testing maybe?
+
 ## Folder Structure
 ```
 DebuggingBasicsWorkshop
